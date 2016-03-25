@@ -3,6 +3,7 @@
 // Encapsulation - Binding data and methods into Single Unit is called Encapsulation.
 // Eg. of Encapsulation - Class is the Example
 // Gud Encapsulation - private variables (Data Hiding) and public methods
+// New Changes 
 public class Student {
 private int rollno;  // Member (Instance Variables)
 private String name;
