@@ -41,10 +41,11 @@ class Drawing{
 public class DrawingDemo {
 
 	public static void main(String[] args) {
-		Drawing drawing = new Drawing();
-		Shape shape = new Square();//Upcasting
-		drawing.drawShapes(shape); 
-
+		new Drawing().drawShapes(new Square());
+		//Drawing drawing = new Drawing();
+		//Shape shape = new Square();//Upcasting
+		//drawing.drawShapes(shape); 
+		//drawing.drawShapes(new Square());
 	}
 
 }
